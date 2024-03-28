@@ -27,5 +27,14 @@ internal class Program
         video = new SayaTubeVideo("Review of dune 2 oleh Muhammad Fauzan Majid");
         user.addVideo(video);
         user.printAllVideoPlaycount();
+        user = new SayaTubeUser("");
+
+        video = new SayaTubeVideo("test");
+        for (int i= 0; i< 86; i++)
+        {
+            video.increasePlayCount(25000000);
+        }
+
+
     }
 }
